@@ -1,0 +1,71 @@
+.profilepage {
+    background-repeat: no-repeat;
+    color: #F2F2F2
+}
+
+    
+
+.profile_navbar{
+    width:100vw;
+    height: 60px;
+    background-image: linear-gradient(97deg, #ff7a6e, #ff9770);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+    column-count: 3;
+    font-size: 30px;
+    color: white;
+}
+.helo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 130px;
+    margin-top: 10px;
+    
+}
+.homeimage {
+    margin-left: 20px;
+}
+.searchimage {
+    margin-left: 20px;
+}
+.profile {
+    font-size: 20px;
+    margin-left: 120px;
+    
+}
+.profileimage {
+    width:126px;
+    height:126px;
+    border: 3px solid #ff9770;
+    margin: 10px;
+}
+
+.logout {
+    font-size: 20px;
+    margin-left: 150px;
+    
+}
+.parentbox {
+    width: 841px;
+    height:681px;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+.profilebox {
+    width: 841px;
+    height: 150px;
+    background: white;
+    box-sizing:border-box;
+      
+}
+.updatebutton {
+    background: #403D39
+}
+.profile_info {
+    width: 841px;
+    height: 450px;
+    background: 650px;
+    background: white;
+    margin-top: 30px;
+    
+}
