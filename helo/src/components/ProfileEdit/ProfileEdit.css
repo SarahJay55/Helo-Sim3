@@ -1,37 +1,12 @@
 .profilepage {
-    background-repeat: no-repeat;
-    color: #F2F2F2
+    width: 100vw;
+    height: 100vh;
+    background: #F2F2F2;
+    background-size: cover;
+    overflow-y: hidden;
 }
 
-    
 
-.profile_navbar{
-    width:100vw;
-    height: 60px;
-    background-image: linear-gradient(97deg, #ff7a6e, #ff9770);
-    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
-    column-count: 3;
-    font-size: 30px;
-    color: white;
-}
-.helo {
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: 130px;
-    margin-top: 10px;
-    
-}
-.homeimage {
-    margin-left: 20px;
-}
-.searchimage {
-    margin-left: 20px;
-}
-.profile {
-    font-size: 20px;
-    margin-left: 120px;
-    
-}
 .profileimage {
     width:126px;
     height:126px;
@@ -39,16 +14,15 @@
     margin: 10px;
 }
 
-.logout {
-    font-size: 20px;
-    margin-left: 150px;
-    
-}
+
 .parentbox {
     width: 841px;
     height:681px;
     margin: auto;
     margin-top: 30px;
+    font-weight: bold;
+    
+    
     
 }
 .profilebox {
@@ -59,7 +33,28 @@
       
 }
 .updatebutton {
-    background: #403D39
+    width: 100px;
+    height: 35px;
+    background: #403D39;
+    float: right;
+    display: flex;
+    justify-content:space-around;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    margin-top:50px;
+    margin-right:15px;
+}
+.cancelbutton {
+    width: 100px;
+    height: 35px;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top:50px;
+    margin-right:15px;
 }
 .profile_info {
     width: 841px;
@@ -67,5 +62,27 @@
     background: 650px;
     background: white;
     margin-top: 30px;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+   
+
+}
+.firstname, .lastname {
+    width: 225px;
+    height: 38px;
+    border: orange 1px solid;
+    margin: 10px;
+}
+.options {
+    margin: 20px;
+    width: 225px;
+    height: 38px;
+    
+    display: inline-block;
     
 }
