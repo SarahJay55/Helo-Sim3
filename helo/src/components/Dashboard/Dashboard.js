@@ -31,7 +31,7 @@ class Dashboard extends Component {
         const { filter } = this.state; 
     
         return (
-          <div style={{ height: 'auto' }}>
+          <div>
             <Header page="Dashboard" />
             <div className="parent_container">
               <div className="child_container">
