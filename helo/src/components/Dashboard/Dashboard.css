@@ -1,0 +1,119 @@
+.parent_container {
+    width: 100%;
+    min-width: 1200px;
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  
+  .child_container {
+    width: 80%;
+    min-width: 1000px;
+  }
+
+  .open-sans {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+  .open-sans-bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+  }
+  
+  .child_top {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  
+  .onboarding {
+    width: 500px;
+    height: 150px;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px;
+  }
+  
+  .recommended_parent {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    margin-top: 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .recommended_child {
+    width: 841px;
+  }
+  
+  .recommended_header {
+    width: 100%;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    position: relative;
+  }
+  
+  .recommended_header_span {
+    font-size: 25px;
+  }
+  
+  .recommended_select_span {
+    position: absolute;
+    right: 148px;
+  }
+  
+  .recommended_select {
+    position: absolute;
+    right: 10px;
+    font-size: 18px;
+    width: 130px;
+  }
+  
+  .recommended_users_parent {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px;
+    height: 600px;
+    width: 100%;
+  }
+  
+  .recommended_users_child {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  
+  .recommended_users_child_empty {
+    width: 100%;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  
