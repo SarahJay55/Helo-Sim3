@@ -17,11 +17,38 @@
     border-radius: 8px;
 }
 
-img {
+.img {
     margin-top: 20px;
     margin-left: 110px;
     width: 120px;
     height: 120px;
+  }
+
+  .auth_logo_img {
+    width: 120px;
+    margin-top: 34px;
+    margin-left: 45px;
+  }
+
+  .open-sans {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  .open-sans-bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+  }
+
+  .flex_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .i_dont_know {
+    display: flex;
+    flex-direction: column;
   }
 
 

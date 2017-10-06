@@ -3,7 +3,6 @@ import './Dashboard.css';
 import axios from 'axios';
 import { getUserInfo } from './../../ducks/reducer';
 import { connect } from 'react-redux'
-import User from './User/User';
 import Header from '../Header/Header';
 
 class Dashboard extends Component {
@@ -31,14 +30,12 @@ class Dashboard extends Component {
         const { filter } = this.state; 
     
         return (
-          <div>
+          <div style={{ height: 'auto' }}>
             <Header page="Dashboard" />
-            <div className="parent_container">
-              <div className="child_container">
-                <div className="child_top">
-                  <User />
-    
-                  <div className="onboarding content-container">
+            <div className="dash_parent_container">
+              <div className="dash_child_container">
+                <div className="dash_child_top">    
+                  <div className="dash_onboarding content-container">
                     <span className="open-sans">Welcome to Helo! Find recommended friends based on your similarities, and even search for them by name. The more you update your profile, the better recommendations we can make!</span>
                   </div>
                 </div>
